@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fast Food</title>
+  <meta name="description" content="..."/>
+  <meta name="keywords" content="..."/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<!-- table of contents 
+	- topSection
+	- foodList
+	- mainOffer
+  - feedback
+  - footer
+-->
+
+<body>
+  <div class="wrapper">
+    <section class="topSection">
+      <header class="container">
+        <div class="logo">
+          <a href="#">
+            <img src="img/ffLogo.png" alt="логотип">
+          </a>
+        </div>
+        <nav class="topNav">
+          <ul>
+            <li class="topNav__li selected"><a href="#">главная</a></li>
+            <li class="topNav__li nonselected"><a href="#">страницы</a></li>
+            <li class="topNav__li nonselected"><a href="#">спец. предложения</a></li>
+            <li class="topNav__li nonselected"><a href="#">цены</a></li>
+            <li class="topNav__li nonselected"><a href="#">магазин</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="button__link headerButton">
+          <div class="button">заказать сейчас</div>
+        </a>
+      </header>
+      <div class="topSectionContent container">
+        <div class="topSectionContent__title">
+          <p>fast food бургеры</p>
+          <h1>Самая быстрая еда для мгновенного утоления голода.</h1>
+        </div>
+        <div class="topSectionContent__text">
+          <p>Иногда еда выглядит просто ужасно. Но только не у нас. Наши бургеры не только вкусные, но и очень привлекательные.</p>
+        </div>
+        <a href="#" class="topSectionContent__button button__link">
+          <div class="button">заказать сейчас</div>
+        </a>
+      </div>
+    </section>
+  </div>
+    <section class="foodList container">
+      <div class="foodList__item">
+        <img src="img/foodList1.jpg" alt="картинка блюда">
+        <h2>Chicken Paella</h2>
+        <p>Мы просто не производим и не продаем еду. Хорошая еда согревает.</p>
+      </div>
+      <div class="foodList__item">
+        <img src="img/foodList2.jpg" alt="картинка блюда">
+        <h2>Taco Del Mar</h2>
+        <p>Тако Дель Мар сочетает в себе лучшее из мексиканской кухни со свежими блюдами.</p>
+      </div>
+      <div class="foodList__item">
+        <img src="img/foodList3.png" alt="картинка блюда">
+        <h2>Bon Au Pain</h2>
+        <p>BonAu Pain - пионер в области здорового фаст-фуда.</p>
+      </div>
+      <div class="foodList__item">
+        <img src="img/foodList4.png" alt="картинка блюда">
+        <h2>Pizza Hut</h2>
+        <p>Цены в меню Pizza Hut с годами существенно снизились.</p>
+      </div>
+    </section>
+    <section class="mainOffer">
+      <div class="mainOffer__container container">
+        <div class="mainOffer__image">
+          <img src="img/BurgerKingimg.png" alt="картинка бургера">
+        </div>
+        <div class="mainOffer__content">
+          <h2 class="mainOffer__content-title">Burger King</h2>
+          <p class="mainOffer__content-text">Вместе с McDonald's Burger King стал синонимом бургеров в США.</p>
+          <p class="mainOffer__content-price">120руб.<span>150руб.</span></p>
+          <a href="#" class="mainOffer__button button__link">
+            <div class="button">заказать сейчас</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="priceLists container">
+      <div class="priceListsCard Card1 rightCard">
+        <div class="priceListsCard__content ">
+          <h2 class="priceListsCard__content-title">Dairy Queen</h2>
+          <p class="priceListsCard__content-text">Dairy Queen самый большой фаст-фуд в США.</p>
+          <p class="mpriceListsCard__content-price">100руб.<span>130руб.</span></p>
+          <a href="#" class="priceListsCard__button button__link">
+            <div class="button">заказать сейчас</div>
+          </a>
+        </div>
+      </div>
+      <div class="priceListsCard Card2">
+        <div class="priceListsCard__content ">
+          <h2 class="priceListsCard__content-title">Pizza Hut</h2>
+          <p class="priceListsCard__content-text">Цены в меню Pizza Hut.</p>
+          <p class="mpriceListsCard__content-price">80руб.<span>110руб.</span></p>
+          <a href="#" class="priceListsCard__button button__link">
+            <div class="button">заказать сейчас</div>
+          </a>
+        </div>
+      </div>
+      <div class="priceListsCard Card3 rightCard">
+        <div class="priceListsCard__content ">
+          <h2 class="priceListsCard__content-title">Burger King</h2>
+          <p class="priceListsCard__content-text">Burger King стал синонимом бургеров в США.</p>
+          <p class="mpriceListsCard__content-price">120руб.<span>150руб.</span></p>
+          <a href="#" class="priceListsCard__button button__link">
+            <div class="button">заказать сейчас</div>
+          </a>
+        </div>
+      </div>  
+      <div class="priceListsCard Card4">
+        <div class="priceListsCard__content ">
+          <h2 class="priceListsCard__content-title">Papa John’s</h2>
+          <p class="priceListsCard__content-text">Papa John’s один из самых популярных фастфудов.</p>
+          <p class="mpriceListsCard__content-price">130руб.<span>160руб.</span></p>
+          <a href="#" class="priceListsCard__button button__link">
+            <div class="button">заказать сейчас</div>
+          </a>
+        </div>
+      </div>        
+    </section>
+    <section class="feedback">
+      <div class="feedbackContainer">
+        <div class="feedbackFaces">
+          <div class="circle">
+            <div class="smalCircle">
+              <img src="img/FacePic2.png" alt="портрет довольного покупателя" class="facePicMain">
+            </div>
+          </div>
+          <img src="img/FacePic1.png" alt="портрет довольного покупателя" class="facePic1 facePic">
+          <img src="img/FacePic3.png" alt="портрет довольного покупателя" class="facePic2 facePic">
+          <img src="img/FacePic4.png" alt="портрет довольного покупателя" class="facePic3 facePic">
+          <img src="img/FacePic5.png" alt="портрет довольного покупателя" class="facePic4 facePic">
+        </div>
+        <div class="gratitude">
+          <div class="quotationMarks">
+            <div class="opacityCircle">
+              <img class="quotationMarks__item" src="img/quotationMarks.svg" alt="Кавычки">
+              <img class="quotationMarks__item" src="img/quotationMarks.svg" alt="Кавычки">
+            </div>
+          </div>
+          <p class="gratitude__text">Большое спасибо за оперативное обслуживание. Очень ценю. Превосходный вкус в каждом кусочке.</p>
+          <h2 class="gratitude__title">Настоящий гурман</h2>
+          <p class="gratitude__text">Россия</p>
+        </div>
+      </div>
+    </section>
+    <section class="downloadNow">
+      <div class="downloadNow__container container">
+        <h2 class="downloadNow__title">Скачайте меню прямо сейчас</h2>
+        <a href="#" class="downloadNow__button button__link">
+          <div class="button">Скачать</div>
+        </a>
+      </div>
+    </section>
+  <footer>
+    <div class="footer container">
+      <div class="footerLogo">
+        <div class="footerLogo__logo"></div>
+        <a href="#" class="e-mail">lmfl1984@gmail.com</a>
+        <a href="#" class="footerLogo__cite">www.fastfoodxxx.com</a>
+      </div>
+      <div class="footerLinks">
+        <ul>
+          <h3 class="footer__title">Наше меню</h3>
+          <li class="footer__li"><a href="#" class="footer__link">Завтрак</a></li>
+          <li class="footer__li"><a href="#" class="footer__link">Обед</a></li>
+          <li class="footer__li"><a href="#" class="footer__link">Ужин</a></li>
+        </ul>
+      </div>
+      <div class="footerLinks">
+        <ul>
+          <h3 class="footer__title">Информация</h3>
+          <li class="footer__li"><a href="#" class="footer__link">О нас</a></li>
+          <li class="footer__li"><a href="#" class="footer__link">Сертификаты</a></li>
+          <li class="footer__li"><a href="#" class="footer__link">Мероприятия</a></li>
+        </ul>
+      </div>
+      <div class="footerLinks">
+        <ul>
+          <h3 class="footer__title">Полезные ссылки</h3>
+          <li class="footer__li"><a href="#" class="footer__link">Сервис</a></li>
+          <li class="footer__li"><a href="#" class="footer__link">Поддержка</a></li>
+          <li class="footer__li"><a href="#" class="footer__link">Условия</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <h3 class="footer__title">Мы в соцсетях</h3>
+        <ul>
+          <li class="social__li"><a href="#" class="social__link"><img src="img/facebook 1.png" alt="иконка фейсбук"></a></li>
+          <li class="social__li"><a href="#" class="social__link"><img src="img/twitter 1.png" alt="иконка твиттер"></a></li>
+          <li class="social__li"><a href="#" class="social__link"><img src="img/instagram 1.png" alt="иконка инстаграм"></a></li>
+          <li class="social__li"><a href="#" class="social__link"><img src="img/linkedin 1.png" alt="иконка линкед ин"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
